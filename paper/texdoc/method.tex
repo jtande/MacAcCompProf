@@ -1,0 +1,18 @@
+\section{Procedure}
+\label{procedure}
+More than 250 computers were profiled for system resource allocation 
+and utilization. The profiling was carried out for both local and network 
+accounts. For the two types of accounts, I profiled the systems at login 
+after they have been idle or restarted. In other to reproduce end-user 
+experience, the profiling script was set up to lauch at login, taking 
+continous snapshots for 35 minutes.  The subprocess class and its Popen 
+constructor in Python (version 3.6)~\cite{python366} was used to start, time, 
+and exit the top command[citation]. The profiled computers had either the 
+Mac OS X 10.8 Mountain Lion, the OS X 10.9 Mavericks, the OS X 10.11 El 
+Captain or the macOS 10.12 Sierra operating system. We profiled computers 
+from one classroom to the other, lebelling the log files to account for 
+the date of data collection, the classroom and the computer inventory tag. 
+A trunck directory and subdirectories were then created with each subdirectory 
+named after the classroom from which profile data was collected. A copy of the 
+trunck directory was saved for reference and future need before the log files 
+were cleaned up and computer resource metrics extracted.
