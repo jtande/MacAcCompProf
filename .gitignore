@@ -4,6 +4,7 @@
 *.log
 *.pdf
 *.spl
+*.eps
 #Exclude the following directories
 DATA/
 CleanDataOneTerm/
