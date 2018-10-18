@@ -1,0 +1,10 @@
+#exclude emacs backup files
+*~
+*.aux
+*.log
+*.pdf
+*.spl
+#Exclude the following directories
+DATA/
+CleanDataOneTerm/
+CleanDataTwoTerm/
